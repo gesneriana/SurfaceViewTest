@@ -108,7 +108,7 @@ namespace SurfaceViewTest
 
             /// <summary>
             /// 为自定义的定时任务类特定创建的构造方法
-            /// 内部类不能够直接访问主活动的属性和方法
+            /// 内部类不能够直接访问主活动的非静态属性和方法
             /// 所以必须先获取控件的引用和主活动的引用
             /// 或者让MainActivity继承TimerTask也可以
             /// </summary>
